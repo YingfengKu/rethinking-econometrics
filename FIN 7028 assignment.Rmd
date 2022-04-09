@@ -1,0 +1,19 @@
+---
+title: "FIN7028 assignment"
+author: "Yingfeng Ku"
+date: "`r Sys.Date()`"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+#Loading packages (might useful)
+knitr::opts_chunk$set(echo = TRUE)
+library(zoo)
+library(fpp2)
+library(tidyquant)
+library(forecast)
+library(bizdays)
+library(tidyverse)
+library(DT)
+```
+
